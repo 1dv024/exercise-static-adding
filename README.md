@@ -1,8 +1,6 @@
-#
-<i class="fa fa-laptop"></i> Statisk addition
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-static-adding">https://github.com/1dv024/exercise-static-adding</a></li>
-</ul>
+# Statisk addition
+
+- [Gitbook](https://coursepress.gitbooks.io/objektorienterad-programmering-1dv024/content/ovningsuppgifter/statisk-addition/)
 
 Komplettera det ofullständiga projektet ”StaticAdding” med den statiska klassen `MyMath` så att metoden `Main` kan kompileras och exekveras utan problem.
 
@@ -46,14 +44,15 @@ namespace StaticAdding
 
 Fundera lite över vilken av de två statiska metoderna som kommer att anropas av de olika satserna. Vad är det som bestämmer det? Jo, typen som argumenten är av. Nog med ledtrådar…
 
-##<i class="fa fa-flag-checkered"></i> Mål
+## Mål
 
 Efter att ha gjort övningsuppgiften ska du känna till:
 
 - Allmänt om metoder i kurslitteraturen, kapitel 4, främst under rubrikerna ”_Calling a Method_” och ”_Declaring a Method_”.
 - Överlagring av metoder i kurslitteraturen, kapitel 4, under rubriken ”_Method Overloading_”.
 - Statiska metoder behandlas i kurslitteraturen, kapitel 5, under underrubriken ”_Static Methods_”. Online-hjälpen ”_Static Classes and Static Class Members (C# Programming Guide)_”, http://msdn.microsoft.com/en-us/library/79b3xss3.aspx får komplettera.
-##<i class="fa fa-lightbulb-o"></i> Tips
+
+## Tips
 
 Läs om:
 
@@ -63,7 +62,6 @@ Läs om:
 
 Genom att läsa online-dokumentationen kan du lista ut hur du ska skriva för att ett flyttal ska presenteras med en decimals onoggrannhet. Men det kan vara lite snårigt att hitta så här har du ett hett tips för att skriva en variabel av typen `double` med namnet `myFloatingPointNumber`: `Console.WriteLine($"{myFloatingPointNumber:f1}");`.
 
-##<i class="fa fa-flask"></i> Lösningsförslag
-<ul class="fa-ul fa-border exercise-info">
-<li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-static-adding"></a>https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-static-adding</li>
-</ul>
+## Lösningsförslag
+
+- [https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-static-adding](https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-static-adding)
